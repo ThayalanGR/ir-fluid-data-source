@@ -51,14 +51,14 @@ export default class FluidDataSourceService {
   }): void {
     this.log(
       `Mapping data for assignedKeys -> categoryKeys - [${categoryKeys.join(
-        ", "
-      )}] and valueKeys [${valueKeys.join(", ")}]...`
+        ", ",
+      )}] and valueKeys [${valueKeys.join(", ")}]...`,
     );
 
     // Validate that assignedKeys are present in parsedData
     const validAssignedKeys: { key: string; type: "category" | "value" }[] = [];
     categoryKeys.forEach((key) => {
-      if (this.parsedData[0].hasOwnProperty(key)) {
+      if (this.parsedData[0]?.[key] !== undefined) {
         validAssignedKeys.push({ key, type: "category" });
       }
     });
