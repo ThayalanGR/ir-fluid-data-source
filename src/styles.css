@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+
+  padding: 10px;
+
+  background-color: black;
+  color: white;
+}
+
+.code {
+  width: 85vw;
+  height: 85vh;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin-top: 20px;
+
+  border: 1px dashed white;
+
+  text-align: left;
+
+  padding: 15px 20px;
+
+  overflow: auto;
+
+  scroll-behavior: smooth;
+
+  line-height: 30px;
+}
+
+.scroll-space {
+  height: 40%;
+}

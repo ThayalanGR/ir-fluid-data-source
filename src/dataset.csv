@@ -1,0 +1,17 @@
+year,quarter,region,segment,sales,profit
+2014,qtr1,east,consumer,20,30
+2014,qtr1,east,corporate,25,15
+2014,qtr1,west,consumer,15,20
+2014,qtr1,west,corporate,30,25
+2014,qtr2,east,consumer,27.5,20
+2014,qtr2,east,corporate,29.5,19
+2014,qtr2,west,consumer,31.5,18
+2014,qtr2,west,corporate,33.5,17
+2015,qtr1,east,consumer,35.5,16
+2015,qtr1,east,corporate,37.5,15
+2015,qtr1,west,consumer,39.5,14
+2015,qtr1,west,corporate,41.5,13
+2015,qtr2,east,consumer,43.5,12
+2015,qtr2,east,corporate,45.5,11
+2015,qtr2,west,consumer,47.5,10
+2015,qtr2,west,corporate,49.5,9
