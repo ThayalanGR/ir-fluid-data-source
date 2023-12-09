@@ -63,7 +63,7 @@ export default class FluidDataSourceService {
       }
     });
     valueKeys.forEach((key) => {
-      if (this.parsedData[0].hasOwnProperty(key)) {
+      if (this.parsedData[0]?.[key] !== undefined) {
         validAssignedKeys.push({ key, type: "value" });
       }
     });
